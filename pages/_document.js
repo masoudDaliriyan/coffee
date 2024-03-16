@@ -7,7 +7,15 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script src="https://unpkg.com/jquery/dist/jquery.js"></script>
+        <script src="https://unpkg.com/image-map/dist/image-map.jquery.js"></script>
+        {/*<script>*/}
+        {/*    setTimeout(function () {*/}
+        {/*        $('img[usemap]').imageMap()*/}
+        {/*    },1000)*/}
+        {/*</script>*/}
       </body>
+    
     </Html>
   );
 }
